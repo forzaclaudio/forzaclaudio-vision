@@ -13,7 +13,7 @@ video = Video()
 screen = Screen()
 overlay = Overlays()
 
-res_code = Video.resolution_code()
+res_code = video.resolution_code()
 screen.set_resolution(res_code)
 
 cap = cv2.VideoCapture(0)

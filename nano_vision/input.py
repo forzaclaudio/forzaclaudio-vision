@@ -112,6 +112,7 @@ class Video:
         """
         Return the resolution of the current video source.
         """
+        print(self)
         if not self._path:
             try:
                 proc = subprocess.Popen(
@@ -128,7 +129,7 @@ class Video:
                 exit(1)
             logger.debug("Captured output: {}".format(outs))
             logger.debug("Captured errors: {}".format(errs))
-            m = re.search("\d.*/\d*", outs.decode("utf-8"))
+            m = re.search("\d+/\d+", outs.decode("utf-8"))
             if not m:
                 logger.error("Unable to find video resolution values")
                 exit(1)

@@ -14,7 +14,7 @@ then
   PORT=4747
 else
   echo "Using port: "${2}
-  PORT=${1}
+  PORT=${2}
 fi
 
 

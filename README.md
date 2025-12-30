@@ -40,3 +40,15 @@ $ pytest --cov=nano_vision
 - https://github.com/miooochi/face_recognizer
 
 - https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html
+
+- https://github.com/computervisioneng/train-yolov8-custom-dataset-step-by-step-guide?tab=readme-ov-file
+
+- https://github.com/computervisioneng/automatic-number-plate-recognition-python-yolov8?tab=readme-ov-file
+
+- https://github.com/abewley/sort
+
+- https://github.com/computervisioneng/yolo-license-plate-detection
+
+- https://www.kaggle.com/code/tathagatbanerjee/machines-can-draw-neural-style-transfer-pytorch
+
+- https://www.tensorflow.org/tutorials/generative/style_transfer

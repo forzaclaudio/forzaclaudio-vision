@@ -5,7 +5,7 @@ import time
 from pathlib import Path
 
 import cv2
-import face_recognition
+
 from nano_vision import Overlays, Screen, Video
 from nano_vision.utils import generate_filename
 from tqdm import tqdm
@@ -129,6 +129,8 @@ def learn_faces(training_dir="train", save_as="faces_data.pkl"):
     """
     Learn the faces from images in the given directory.
     """
+    import face_recognition
+    
     datafile = save_as
     data_dir = Path(training_dir)
     Names = []

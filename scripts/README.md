@@ -23,3 +23,9 @@ Set the IP and Port variables in the `lauch_cam.sh` script to the desired values
 $ ./launch_cam.sh
 ```
 
+
+## Troubleshooting
+```bash
+ffplay -f video4linux2 /dev/video0
+```
+to test is video can be read
